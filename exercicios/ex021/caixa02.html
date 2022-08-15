@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            margin:0px;
+        }
+        header{
+            background-color: #e9d4d4;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav{
+            background-color: #422f2f;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /*horizontal, vertical, blur, espalhamento da sombra e cor */
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            margin-right: 30px;
+        }
+        nav:hover{
+            text-decoration: underline;
+            background-color: #120d5a;
+        }
+        main{
+            background-color: #e9d4d4;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        section > p{
+            font-weight: bold;
+            background-color: #120d5a;
+            color: #fff;
+        }
+        div#bola{
+            height: 15px;
+            width: 15px;
+            background-color: #3a2fdf;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        article{
+            background-color: #fff5f5;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: #7a5c5c;
+        }
+        footer{
+            background-color: #422f2f;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        } 
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="https://www.facebook.com/devanil.duran" target="_blank">Face do Deva</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Clash of Clans | Minecraft | Bobera</p>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Como isso afeta o Grêmio</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo magni aliquid officiis adipisci. Obcaecati cupiditate nam beatae nesciunt quod. Maiores distinctio aut alias culpa error magnam expedita provident aperiam consectetur.</p>
+                <aside>
+                    <p>Artigo escrito por Kevin Duran</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo kekevi e igual a milly por causa du cabelo</p>
+    </footer>
+    
+</body>
+</html>
